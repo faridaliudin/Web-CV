@@ -36,6 +36,8 @@ nav {
     z-index: 3;
     position: fixed;
     background: #080808;
+    width: 100%;
+    padding-right: 10%;
 }
 
 .logo {
