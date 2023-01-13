@@ -32,12 +32,15 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    z-index: 1;
-    position: relative;
+    top: 0;
+    z-index: 3;
+    position: fixed;
+    background: #080808;
 }
 
 .logo {
     width: 140px;
+    margin-right: 430px;
 }
 
 nav ul li {
@@ -70,6 +73,10 @@ nav ul li a:hover::after {
 
 nav .fas {
     display: none;
+}
+
+#sidemenu nav {
+    float: right;
 }
 
 .header-text {
